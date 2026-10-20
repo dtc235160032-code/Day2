@@ -1,0 +1,14 @@
+﻿
+@{
+	ViewBag.Tile = "Welcome";
+}
+	<h1> xin chao </h1>
+<p>chao mung ban den voi toi</p>
+<ul>
+@{
+	for(int i=0; i < (int)ViewBag.Id; i++)
+	{
+		@ViewData["Name"]
+	}
+}
+</ul>
